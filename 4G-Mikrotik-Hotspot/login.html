@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+	<meta charset="windows-1256" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>تسجيل الدخول</title>
+	
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' /> 
+
+	<link rel="stylesheet" href="assets/css/assets.css" />
+	<link rel="stylesheet" type="text/css" href="assets/fonts/Almarai.css" />
+	<link rel="stylesheet" href="assets/css/fontello.css" />
+    <script src="assets/js/hotCookie.min.js"></script>
+    <script src="assets/js/hotInImprover.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/chik.css">
+	<script type="text/javascript" src="assets/js/label.js"></script>
+	<script src="assets/js/jquery-1.11.2.min.js"></script>
+	<script src="assets/js/hotBlocker.min.js" login-error="$(error)" try-count="10" block-time="1"></script>
+
+<style>
+#domain{
+    width: 100%;
+    border: 1px solid background-color: rgb(68, 103, 178);
+    height: 38px;
+    color: white;
+    text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+    padding: 3px 20px 3px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #000000;
+    transition: -webkit-box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out,-webkit-box-shadow .3s ease-in-out;
+     }
+</style>
+	 
+</head>
+
+$(if chap-id)
+	<form name="sendin" action="$(link-login-only)" method="post">
+		<input type="hidden" name="username" />
+		<input type="hidden" name="password" />
+		<input type="hidden" name="dst" value="$(link-orig)" />
+		<input type="hidden" name="popup" value="true" />
+		<input type="hidden" name="domain"/>
+	</form>
+	
+	<script type="text/javascript" src="/md5.js"></script>
+
+	<script type="text/javascript">
+	    function doLogin() {
+		document.sendin.username.value = document.login.username.value;
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+		document.sendin.domain.value = document.login.domain.value;
+		document.sendin.submit();
+		return false;
+	    }
+	</script>
+$(endif)
+
+<!-- بداية كود الوضع الليلي-->
+
+<style type='text/css'> /* Night Mode */ .nightly{color:#999;font-size:13px} .Switchbtn{position:fixed;text-align:center;display:inline-block;align-items:center;z-index:100;left:20px;top:20px} .togglenight{display:none;} .togglenight + .togglenight-btn{outline:0;display:inline-block;width:45px;height:10px;position:relative;cursor:pointer;margin-right:5px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;} .togglenight + .togglenight-btn:after,.togglenight + .togglenight-btn:before{position:relative;display:block;content:"";width:50%;height:100%} .togglenight-switch + .togglenight-btn{background:#d5d2fc;border-radius:99em;transition:all .4s ease} .togglenight-switch + .togglenight-btn:after{content:'';border-radius:100px;background:#887fff;transition:right 0.3s cubic-bezier(0.175,0.885,0.32,1.275),padding 0.3s ease,margin 0.3s ease;position:absolute;width:20px;height:20px;top:-5px;right:0;box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23)} .togglenight-switch:checked + .togglenight-btn{background:rgba(255,255,255,.15)} .togglenight:checked + .togglenight-btn:after{content:'';right:55%;background:#ff9f43}
+.nightmode a{color:rgba(255,255,255,.7)!important} .nightmode a:hover{color:rgba(255,255,255,.4)!important}
+.nightmode .class-baru{}
+.nightmode .class-baru{}
+.nightmode .form{background-color:rgba(0,0,0,0.22);}
+.nightmode .submit button {background:#B06E37;}
+.nightmode .back button {background:#07203f;}
+.nightmode .trial {background:#07203f;}
+.nightmode .social-icon {background:#07203f;}
+.nightmode .social-icon.facebook:hover {background:#07203f;}
+.nightmode .social-icon.dollar:hover {background:#07203f;}
+.nightmode .social-icon.gplus:hover {background:#07203f;}
+.nightmode .social-icon.location:hover {background:#07203f;}
+.nightmode .copyright {background:#07203f;}
+.nightmode .marque {background:#07203f;}
+.nightmode .banner {background:rgba(0,0,0,.2);}
+.nightmode .form .input-group .input-field input {color:#fe0000;}
+.nightmode .modal {background:#B06E37;}
+.nightmode .bnr {background:#07203f;}
+.nightmode #speed {background:#B06E37;}
+
+</style>
+
+<!-- نهاية كود الوضع الليلي-->
+
+<body class="nightmode">
+
+<!-- /بداية كود الايقونات-->
+          <div class="bnr">
+        <div class="banner2">
+                <div class="floated">
+                        <a href="login.html"><div class="social-icon dollar">
+                            <i class="icon-dollar"></i>
+                        </div></a>
+                        <div class="social-icon gplus" onclick="document.getElementById('alert-phone').style.display = ('block')">
+                            <i class="icon-whatsapp"></i>
+                        </div>
+                        <div class="social-icon location" onclick="document.getElementById('alert-location').style.display = ('block')">
+                            <i class="icon-location"></i>
+                        </div>
+                    </div>
+        </div>
+		
+		<!-- /نهاية كود الايقونات-->
+		</div>
+<br>
+<br>
+<br>
+<br>
+    <!-- سكربت خاص بالساعة-->
+<div id="clock">Loading...</div>  <script type="text/javascript">  function refrClock()  {  var d=new Date();  var s=d.getSeconds();  var m=d.getMinutes();  var h=d.getHours();  var day=d.getDay();  var date=d.getDate();  var month=d.getMonth();  var year=d.getFullYear();  var days=new Array("الاحد","الاثنين","الثلاثاء","الاربعاء","الخميس","الجمعة","السبت");  var months=new Array("يناير","فبراير","مارس","ابريل","ماي","يونيو","يوليو","اغسطس","سبتمبر","اكتوبر","نوفمبر","ديسمبر");  var am_pm;  if (s<10) {s="0" + s}  if (m<10) {m="0" + m}  if (h>12) {h-=12;am_pm = "مساءً."}  else {am_pm="صباحاً."}  if (h<10) {h="0" + h}  document.getElementById("clock").innerHTML=days[day] + " " + date + " من " + months[month] + " " + year + "   |   الساعة الان " + h + ":" + m + ":" + s + " " + am_pm;  setTimeout("refrClock()",1000);  }  refrClock();</script>
+
+ <!-- نهاية الكود-->
+
+	
+    <div class="form">
+      <div class="banner">
+	   <!-- /بداية كود اسم الشبكة داخل البنر-->
+            <div class="round round-inside">
+                                   
+			  <div><h2 class="animate" >شبكة فورجي نت اللاسلكية</h2></div>
+<div><h2 class="animate" ></h2></div>
+			
+	
+        </div>
+		<!-- /نهاية الكود-->
+		<!-- /بداية كود شريط اخباري-->
+		<div class="marque">
+        <marquee direction="right" onMouseOver="this.stop();" onMouseOut="this.start();" div class="gif"> ...::::  أهلا بكم في شبكة فورجي نت اللاسلكية<img width="50"  src="img/new.gif" align="absmiddle"/> سرعات تناسب جميع الاحجام وثبات في السرعات<img width="50" src="img/new.gif" align="absmiddle"/>يوجد حماية لمنع أختراق الحسابات<img width="50"  src="img/new.gif" align="absmiddle"/>  ننصح بالاحتفاط بالكرت حتى ينتهي رصيدكم <img width="50" src="img/new.gif" align="absmiddle"/>أهلا بكم ودمتم سالمين<img width="50" src="img/new.gif" align="absmiddle"/> اخي المستخدم لاتستخدم الانترنت الا في مرضاة الله ولاتنسى ان الله بكل شي عليم   ::::... <img width="50" src="img/new.gif" align="absmiddle"&nbsp; /> 
+        </marquee>
+    </div>
+	<!-- /نهاية كود الشريط الاخباري-->
+	
+		
+		<!-- /بداية كود تسجيل الدخول-->
+		<form name="login" action="$(link-login-only)" method="post"
+		      $(if chap-id) onSubmit="return doLogin()" $(endif)>	
+		   <input type="hidden" name="dst" value="$(link-orig)" />
+		   <input type="hidden" name="popup" value="true" />
+		   <div class="form-title"><h4 style="color:#d9c4a9;">أختر السرعة التي تناسبك</h4>
+		   <br>
+ <select id="domain" name="domain">
+                <option value="speed_default" selected>اضغط هنا لتبديل سرعه الكرت</option>
+                <option value="256k/512k">سرعة اقتصادية</option>                        
+                <option value="256k/900k">سرعة متوسطة  </option> 
+                <option value="256k/1M">سرعة عالية</option>	     
+                <option value="300k/2M">سرعة عالية جدا</option>	
+                				
+				
+           </select>
+            <div class="input-group">		   
+            <div class="input-field">
+		    <input id='uname' type="text"  name="username" required improve-input rm-white-spaces to-lower to-arabic-numbers />
+			<label for="username" style="pointer-events: none;">أسم المستخدم</label>
+            </div>
+            <div class="input-field">
+            <input  id='paswd'  type="hidden"  name="password">
+			<!--<label for="password">كلمة المرور</label>-->
+            </div>
+            <div id="toggles">
+				   <input type="checkbox" name="checkbox1" id="remember" class="ios-toggle" value="ON" checked/>
+				   <label for="remember" class="checkbox-label" data-off="لا تتذكرني" data-on="تذكرني"></label>
+				 </div>
+            
+            <div class="submit">
+                <button onclick='return rem();' type="submit">تسجيل الدخول<i class="icon-login"></i></button>
+			</div>
+ 			       
+<div class="banner">
+            <div class="round round-inside">
+<div><h2 class="animate" ></h2></div>
+
+                                    <img src="1.jpg" width="240px" Height="400px" alt="توصيل">
+                                </div>
+<br>
+			
+        </div>
+
+        </form>
+<div class="form-title"><h4 style="color:#d9c4a9;">لتركيب وتوصيل الموادم للمنازل تواصل معنا على</h4>
+<div class="form-title"><h4 style="color:#d9c4a9;">772241829</h4>
+<br>
+
+<div class="form-title"><h4 style="color:#d9c4a9;">للوصول لصفحة الشبكة من متصفح جوالك اكتب الاتي</h4>
+<div class="form-title"><h4 style="color:#d9c4a9;">a.com</h4>
+
+<br>
+<div class="form-title"><h4 style="color:#d9c4a9;">أي شخص يحاول استخدام أي برنامج أختراق الشبكة سوف يحظر تلقأئيأ من الشبكة</h4>
+    </div>
+
+
+
+  
+   <!-- /نهاية كود تسجيل الدخول-->
+   
+ <div id="hcg-slider-1" class="hcg-slider">
+                                <div class="hcg-slide-container">
+                                    <div class="hcg-slider-body">
+                                        <a class="hcg-slides animated" style="display:block">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="hcg-slide-dot-control"></div>
+                            </div>
+    
+							
+ </div>
+
+<!-- /بداية كود شريط الاخطاء-->
+$(if error)
+    <div id="alert-error" class="alert-back" onclick="this.style.display = ('none')">	
+        <div class="modal">
+            <div class="modal-icon error"><i class="icon-error"></i></div>
+            <div class="title error">رسالة خطأ:</div>
+            <div class="modal-clear"></div>
+            <div id="line"></div>
+            <div class="modal-body">
+                <p><script type="text/javascript">
+var error = "$(error)";
+if (error == "simultaneous session limit reached") {
+document.write("لا يمكن تسجيل الدخول أكثر من مرة");
+}
+else if (error == "invalid username or password") {
+document.write("خطأ في إسم المستخدم او كلمة المرور حاول مرة اخرى");
+}
+else if (error == "access denied at this time") {
+document.write("بطاقة سهرة لا يمكن استخدامها في هذا الوقت");
+}
+else if (error == "uptime limit reached") {
+document.write("عذرا لقد انتهى الوقت المتاح لك..");
+}
+else if (error == "invalid password") {
+document.write("تأكد من كتابة كلمة المرور بشكل صحيح");
+}
+else if (error == "no more sessions are allowed for user $(username)") {
+document.write("لا يمكن تسجيل الدخول اكثر من مرة");
+}
+else if (error == "no valid profile found") {
+document.write("لقد انتهت صلاحية هذه البطاقة");
+}
+else if (error == "transfer limit reached") {
+document.write("لا يمكنك تسجيل الدخول , انتهى رصيد هذه البطاقة");
+}
+else if (error == "user $(username) has reached traffic limit") {
+document.write("لا يمكنك تسجيل الدخول , انتهى رصيد هذه البطاقة");
+}
+else if (error == "invalid Calling-Station-Id") {
+document.write("هذا الحساب مقترن بجهاز آخر ");
+}
+else if (error == "user $(username) is not allowed to log in from this MAC address") {
+document.write("هذا الحساب مقترن بجهاز آخر");
+}
+else if(error.search("not found") != -1) {
+document.write("اسم المستخدم غير موجود تأكد من كتابته بشكل صحيح");
+}
+else if (error == "radius timeout") {
+document.write("عزيزي المشترك نعتذر عن انقطاع الخدمة بسبب الصيانة");
+}
+else document.write("$(error)")
+                </script></p>
+            </div>
+        </div>
+    </div>
+$(endif)
+<!-- /نهاية الكود-->
+
+
+<!--  الجداول -->
+  <style type="text/css">
+
+.auto-style14 {
+	text-align: center;
+	font-size: x-large;
+}
+.hidden {
+	display : none;
+}
+.auto-style15 {
+	border: 0px solid #000000;
+	direction: rtl;
+}
+.auto-style18 {
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	font-size: large;
+	background-color:f0da15;
+}
+.auto-style19 {
+	color: #21a0d3;
+	background-color:#ffffff;
+}
+.auto-style20 {
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+.auto-style21 {
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	color: wheat;
+	background-color: #ffffff;
+}
+.auto-style22 {
+	text-align: center;
+	font-size: large;
+}
+.auto-style24 {
+	direction: rtl;
+}
+.auto-stylemymoon {
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	color: wheat;
+	background-color: #019ed5;
+}
+.auto-stylewaleed {
+	color: wheat;
+	background-color: #ffffff;
+}
+</style>
+ <!-- .. -->
+
+
+<div class="form-box">
+<font color="white">
+<div class="row">
+	
+				
+ <div class="copyright">
+
+ <div class="price-list"> 
+
+  <font color="#ffffff"> <h3 style="color:#fe0000;">باقات شبكة فورجي نت</h3>
+</font> </div>
+ </div>  
+
+
+ 
+
+<table cellpadding="2" class="auto-style15" style="width: 100%" align="center">
+<tr class="auto-style19">
+<td class="auto-style18">السعر</td>
+<td class="auto-style18">الوقت</td>
+<td class="auto-style18">الصلاحية</td>
+<td class="auto-style18">التحميل</td>
+</tr>
+<tr>
+<td class="auto-style19"><strong>100</strong></td>
+<td class="auto-style20"><strong>4 ساعات</strong></td>
+<td class="auto-style20"><strong>3 ايام</strong></td>
+<td class="auto-style20"><strong>450 ميجا </strong></td>
+</tr>
+<tr>
+<td class="auto-style19"><strong>150</strong></td>
+<td class="auto-style20"><strong>7 ساعات</strong></td>
+<td class="auto-style20"><strong>3 ايام</strong></td>
+<td class="auto-style20"><strong>700 ميجا </strong></td
+</tr>
+<tr>
+<td class="auto-style19"><strong>250</strong></td>
+<td class="auto-style20"><strong>12 ساعة</strong></td>
+<td class="auto-style20"><strong>4 ايام</strong></td>
+<td class="auto-style20"><strong>1100 ميجا </strong></td
+</tr>
+
+<tr>
+<td class="auto-style19"><strong>500</strong></td>
+<td class="auto-style20"><strong>26 ساعة</strong></td>
+<td class="auto-style20"><strong>7 ايام</strong></td>
+<td class="auto-style20"><strong>2.4 جيجا </strong></td>
+</tr>	
+
+
+<tr>
+<td class="auto-style19"><strong>3000</strong></td>
+<td class="auto-style20"><strong>120 ساعة</strong></td>
+<td class="auto-style20"><strong>30 يوم</strong></td>
+<td class="auto-style20"><strong>15 جيجا </strong></td>
+</tr>
+
+<!--
+<tr>
+<td class="auto-style19"><strong>1500</strong></td>
+<td class="auto-style20"><strong>مفتوح</strong></td>
+<td class="auto-style20"><strong>شهر</strong></td>
+<td class="auto-style20"><strong>3500 ميجا </strong></td>
+</tr>
+
+
+<tr>
+<td class="auto-style19"><strong>2000</strong></td>
+<td class="auto-style20"><strong>مفتوح</strong></td>
+<td class="auto-style20"><strong>شهر</strong></td>
+<td class="auto-style20"><strong>5000 ميجا </strong></td>
+</tr>
+
+
+<tr>
+<td class="auto-style19"><strong>3000</strong></td>
+<td class="auto-style20"><strong>مفتوح</strong></td>
+<td class="auto-style20"><strong>شهر</strong></td>
+<td class="auto-style20"><strong>7500 ميجا </strong></td>
+</tr>
+
+<tr>
+<td class="auto-style19"><strong>4000</strong></td>
+<td class="auto-style20"><strong>مفتوح</strong></td>
+<td class="auto-style20"><strong>شهر</strong></td>
+<td class="auto-style20"><strong>10000 ميجا </strong></td>
+</tr>
+-->
+
+</table>
+</h4></font> </div>
+</div>
+
+
+<div class="form-box">
+<font color="white">
+<div class="row">
+	
+
+<!-- /بداية كود شريط مراكز البيع-->
+    <div id="alert-location" class="alert-back" onclick="this.style.display = ('none')">	
+        <div class="modal">
+            <div class="modal-icon place"><i class="icon-location"></i></div>
+            <div class="title place">الوكلاء و المعتمدين :</div>
+            <div class="modal-clear"></div>
+            <div id="line"></div>
+            <div class="modal-body">
+                <div>1 - <p id="titel"> -- مراكز بيع الكروت  -- </p></div>
+
+<div>1 - <p id="titel"> تباع الكروت بجميع البقالات المحيطة بالشبكة </p></div>
+                <div> - <p id="titel0">جميع البقالات المحيطة بالشبكة</p></div>
+				
+				
+				
+
+            </div>
+        </div>
+    </div>
+<div class="marque">
+        <marquee direction="right" onMouseOver="this.stop();" onMouseOut="this.start();" div class="gif">للمزيد من العروض والباقات تواصل معنا عبر رقم 772241829 <img width="50"  src="img/new.gif" align="absmiddle"/>
+        </marquee>
+    </div>
+<!-- /نهاية الكود-->
+
+</body>
+
+</html>
